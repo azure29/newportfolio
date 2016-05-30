@@ -1,0 +1,505 @@
+@import 'partials/media-queries';
+body {
+	background-color: #faf8f8;
+	margin: 0;
+	margin-top: 60px;
+}
+.nav-wrapper {
+	width: 100%;
+	height: 80px;
+	top: 0;
+	position: fixed;
+	background-color: #faf8f8;
+	display: block;
+}
+.nav-ham {
+	color: #000;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 0;
+	margin: 0 auto;
+	margin-right: 15px;
+	float: right;	
+}
+.nav-main {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: auto;//using clearfix to holds its height
+	// display: none;
+		@include  breakpoint(xsmall) {
+			display: none
+		}
+		@include breakpoint(small) {
+			display: none;
+		}
+		@include breakpoint(medium) {
+			display: none;
+		}
+		@include breakpoint(large) {
+			display: none;
+		}
+		@include breakpoint(xlarge) {
+			display: none;
+		}
+}
+.nav-main li {
+	display: inline-block;
+
+	a {
+		display: block;
+		text-decoration: none;	
+		padding: 20px;
+	    font-family: "freightsans_regular",sans-serif;
+	    font-weight: 300;
+	    color: #6b6b6b;
+	    text-transform: uppercase;
+	    letter-spacing: 3px;
+	}
+	
+}
+#page-home {
+	width: 100%;
+	height: 100%;
+	background-color: #faf8f8;
+}
+.main-content {
+	width: 100%;
+	height: 100%;
+	background-color: #faf8f8;
+}
+
+.main-logo {
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+	.logo-image {
+		display: table-row;
+		width: 100%;
+	}
+}
+	.logo-text {
+		color: #4c4c4c;
+		position: absolute;
+		z-index: 1;
+		display: inline-block;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%); //u can use this or 
+		left: 50%;
+		font-family: "freightsans_regular",sans-serif;
+	    font-weight: 900;
+	    letter-spacing: 4px;
+	    color: #6b6b6b;
+	    text-transform: uppercase;
+		// display: none;
+	  
+		@include  breakpoint(xsmall) {
+			font-size: .1em;
+			width: 90%;
+			text-align: center;
+		}
+		@include breakpoint(small) {
+			width: 90%;
+			text-align: center;
+			font-size: 0.6em;
+		}
+		@include breakpoint(medium) {
+			width: 90%;
+			text-align: center;
+			font-size: 1em;
+		}
+		@include breakpoint(large) {
+			width: 90%;
+			text-align: center;
+			font-size: 1em;
+		}
+	}
+.about-content {
+	width: 100%;
+}
+	.about-content-left {
+		width: 45%;
+		height: 500px;
+		background-color: #faf8f8;
+		display: inline-block;
+		vertical-align: top;
+
+		h2 {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 300;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+		    margin-left: 30px;
+	}			
+}
+	.about-content-logo {
+		display: inline-block;
+		width: 80%;
+	}
+	.about-content-right {
+		width: 54%;
+		height: 500px;
+		display: inline-block;
+		border-left: 1px solid #f2f2f2;
+
+		h2 {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 300;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+		    margin-left: 30px;
+		}
+		p {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 400;
+		    color: #6b6b6b;
+		    letter-spacing: 3px;
+		    text-align: justify;
+		    margin-left: 30px;
+		}
+	}
+	.about-skillset {
+		h2 {
+		}
+		h3 {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 300;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+		    margin-left: 30px;
+		}
+		span, p {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 300;
+		    font-size: 12px;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+		    margin-left: 30px;
+		}
+	}
+	.about-content-skills {
+		display:inline-block;
+		margin-left: 30px; 
+		margin-bottom: 10px;
+	}
+	.about-content-skills-add {
+		display: inline-block;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+.sample-content {
+	width: 100%;
+	margin-left: 20px;
+}
+	.sample-content-left {
+		display: inline-block;
+		width: 23%;
+		height: 500px;
+		vertical-align: top;
+		h2 {
+			font-family: "freightsans_regular",sans-serif;
+		    font-weight: 300;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+		    margin-left: 30px;
+		    margin-top: 250px;
+		    border-bottom: 3px solid #f2f2f2;
+		}
+	}
+	.sample-content-right {
+		display: inline-block;
+		width: 70%;
+		height: 500px;
+		margin-left: 70px;
+		border-left: 1px solid #f2f2f2;
+		overflow: scroll;
+			.sample {
+				width: 290px;
+				height: 290px;
+				display: inline-block;
+			}
+			.sample.sample-1:hover {
+				background-image: url(../images/Artwork.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-2:hover {
+				background-image: url(../images/Sass-toolkit.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-3:hover {
+				background-image: url(../images/Horizontal.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-4:hover {
+				background-image: url(../images/Bootstrap.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-5:hover {
+				background-image: url(../images/TV3.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-6:hover {
+				background-image: url(../images/css&bootstrap.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-7:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-8:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-9:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-10:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-11:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-12:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-13:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-14:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-15:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-16:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-17:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+			.sample.sample-18:hover {
+				background-image: url(../images/TRIANGLES.jpg);
+				background-repeat: no-repeat;
+			}
+	}
+			.smoke {
+				
+			}	
+			.smoke-1 {
+				background-image: url(../images/Smoke3.jpg);
+			}
+			.smoke-2 {
+				background-image: url(../images/Smoke4.jpg);
+			}
+			.smoke-3 {
+				background-image: url(../images/Smoke5.jpg);
+			}
+			.smoke-4 {
+				background-image: url(../images/smoke6.jpg);
+			}
+			.smoke-5 {
+				background-image: url(../images/smoke7.jpg);
+			}
+			.smoke-6 {
+				background-image: url(../images/smoke8.jpg);
+			}
+			.smoke-7 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-8 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-9 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-10 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-11 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-12 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-13 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-14 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-15 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-16 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-17 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+			.smoke-18 {
+				background-image: url(../images/smoke-9.jpg);
+			}
+
+.contact-content {
+	width: 100%;
+	height: 500px;
+}
+	.contact-content-1 {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		height: 500px;
+		span {
+			font-family: "freightsans_regular", sans-serif;
+		    font-weight: 300;
+		    font-size: 20px;
+		    color: #6b6b6b;
+		    text-transform: uppercase;
+		    letter-spacing: 3px;
+		    text-align: left;
+			margin: 0 auto;
+		}
+		h1 {
+			font-family: "freightsans_regular", sans-serif;
+		    font-size: 60px;
+			font-weight: 300;
+		    color: #6b6b6b;
+		    text-align: left;
+		    margin: 0 auto;
+		}
+		p {
+			font-family: "freightsans_regular", sans-serif;
+			font-weight: 300;
+		    color: #6b6b6b;
+		    letter-spacing: 3px;
+		    text-align: left;
+		}
+
+	}
+	.content-1 {
+		margin-top: 100px;
+		margin-left: 40px;
+	}
+	.contact-content-2 {
+		display: inline-block;
+		width: 48%;
+		height: 500px;
+		form {
+			margin-top: 100px;
+		}
+		textarea {
+			font-family: "freightsans_regular", sans-serif;
+			font-weight: 300;
+		    color: #6b6b6b;
+		     text-transform: uppercase;
+		    letter-spacing: 3px;
+		}
+	}
+
+	.contact-content-input {
+		width: 72%;
+		margin-bottom: 20px;
+		font-family: "freightsans_regular", sans-serif;
+		font-weight: 300;
+	    color: #6b6b6b;
+	    letter-spacing: 3px;
+	}
+	.contact-content-submit {
+		width: 27%;
+		margin-top: 20px;
+		font-family: "freightsans_regular", sans-serif;
+		font-weight: 600;
+	    color: #6b6b6b;
+	    border: 1px solid #9c0000;
+	    text-transform: uppercase;
+	    letter-spacing: 5px;
+	    padding: 10px 0 5px 0;
+			&:hover {
+			background-color: #9c0000;
+			color: #fff;
+		}
+	}
+.main-footer {
+	width: 100%;
+	height: 80px;
+	background-color: #474747;
+}
+	.main-footer-span-1 {
+		display: inline-block;
+		width: 60%;
+		margin-top: 30px;
+		vertical-align: top;
+
+		span {
+			font-family: "freightsans_regular", sans-serif;
+			font-weight: 700;
+			color: #6b6b6b;
+			letter-spacing: 5px;
+			margin-left: 30px;
+		}
+	}
+	.main-footer-span-2 {
+		display: inline-block;
+		margin-bottom: 10px;
+		span { 
+			font-family: "freightsans_regular", sans-serif;
+			font-weight: 700;
+			color: #6b6b6b;
+			letter-spacing: 5px;
+		}
+	}
+	.main-footer-icons {
+		display: inline-block;
+		margin-top: 20px;
+
+	}
+	.footer-icons {
+		width: 15px;
+		height: 15px;
+		padding-left: 10px;
+		margin-top: 10px;
+			&:hover {
+				opacity: .5;
+			}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
