@@ -454,6 +454,7 @@ body {
 		}
 		@include  breakpoint(small) {
 			width: 90%;
+			// text-align: center;
 		}
 	}
 	.content-1 {
@@ -566,21 +567,5 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
