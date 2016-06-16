@@ -230,27 +230,27 @@ body {
 				display: inline-block;
 			}
 			.sample.sample-1:hover {
-				background-image: url(../images/Artwork.jpg);
+				background-image: url(../images/art-gallery.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-2:hover {
-				background-image: url(../images/Sass-toolkit.jpg);
+				background-image: url(../images/newborn.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-3:hover {
-				background-image: url(../images/Horizontal.jpg);
+				background-image: url(../images/massage.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-4:hover {
-				background-image: url(../images/Bootstrap.jpg);
+				background-image: url(../images/travel.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-5:hover {
-				background-image: url(../images/TV3.jpg);
+				background-image: url(../images/Restaurant.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-6:hover {
-				background-image: url(../images/css&bootstrap.jpg);
+				background-image: url(../images/charity.jpg);
 				background-repeat: no-repeat;
 			}
 			.sample.sample-7:hover {
@@ -394,7 +394,14 @@ body {
 		    letter-spacing: 3px;
 		    text-align: left;
 		}
-
+		@include  breakpoint(xsmall) {
+			width: 90%;
+			// text-align: center;
+		}
+		@include  breakpoint(small) {
+			width: 90%;
+			// text-align: center;
+		}
 	}
 	.content-1 {
 		margin-top: 100px;
@@ -443,6 +450,16 @@ body {
 	width: 100%;
 	height: 80px;
 	background-color: #474747;
+		@include  breakpoint(xsmall) {
+			width: 90%;
+			position: relative;
+			top: 390px;
+		}
+		@include  breakpoint(small) {
+			position: relative;
+			top: 390px;
+			width: 90%;
+		}
 }
 	.main-footer-span-1 {
 		display: inline-block;
@@ -466,18 +483,29 @@ body {
 			font-weight: 700;
 			color: #6b6b6b;
 			letter-spacing: 5px;
+				@include  breakpoint(xsmall) {
+			display: none;
+			}
+			@include  breakpoint(small) {
+				display: none;
+			}
 		}
 	}
 	.main-footer-icons {
 		display: inline-block;
 		margin-top: 20px;
-
 	}
 	.footer-icons {
 		width: 15px;
 		height: 15px;
 		padding-left: 10px;
 		margin-top: 10px;
+			@include  breakpoint(xsmall) {
+			display: none;
+		}
+		@include  breakpoint(small) {
+			display: none;
+		}
 			&:hover {
 				opacity: .5;
 			}

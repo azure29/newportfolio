@@ -209,22 +209,22 @@ body {
     height: 290px;
     display: inline-block; }
   .sample-content-right .sample.sample-1:hover {
-    background-image: url(../images/Artwork.jpg);
+    background-image: url(../images/art-gallery.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-2:hover {
-    background-image: url(../images/Sass-toolkit.jpg);
+    background-image: url(../images/newborn.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-3:hover {
-    background-image: url(../images/Horizontal.jpg);
+    background-image: url(../images/massage.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-4:hover {
-    background-image: url(../images/Bootstrap.jpg);
+    background-image: url(../images/travel.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-5:hover {
-    background-image: url(../images/TV3.jpg);
+    background-image: url(../images/Restaurant.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-6:hover {
-    background-image: url(../images/css&bootstrap.jpg);
+    background-image: url(../images/charity.jpg);
     background-repeat: no-repeat; }
   .sample-content-right .sample.sample-7:hover {
     background-image: url(../images/TRIANGLES.jpg);
@@ -348,6 +348,12 @@ body {
     color: #6b6b6b;
     letter-spacing: 3px;
     text-align: left; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .contact-content-1 {
+      width: 90%; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .contact-content-1 {
+      width: 90%; } }
 
 .content-1 {
   margin-top: 100px;
@@ -392,6 +398,16 @@ body {
   width: 100%;
   height: 80px;
   background-color: #474747; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .main-footer {
+      width: 90%;
+      position: relative;
+      top: 390px; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .main-footer {
+      position: relative;
+      top: 390px;
+      width: 90%; } }
 
 .main-footer-span-1 {
   display: inline-block;
@@ -413,6 +429,12 @@ body {
     font-weight: 700;
     color: #6b6b6b;
     letter-spacing: 5px; }
+    @media all and (min-width: 350px) and (max-width: 480px) {
+      .main-footer-span-2 span {
+        display: none; } }
+    @media all and (min-width: 480px) and (max-width: 700px) {
+      .main-footer-span-2 span {
+        display: none; } }
 
 .main-footer-icons {
   display: inline-block;
@@ -423,6 +445,12 @@ body {
   height: 15px;
   padding-left: 10px;
   margin-top: 10px; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .footer-icons {
+      display: none; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .footer-icons {
+      display: none; } }
   .footer-icons:hover {
     opacity: .5; }
 
