@@ -359,10 +359,77 @@ body {
 			.smoke-18 {
 				background-image: url(../images/smoke-9.jpg);
 			}
+#page-resume {
+	width: 100%;
+	max-width: 43.75em;
+    margin: 0 auto;
+    padding: 2.0em;
+    margin-top: 1.5em;
+    border: 5px solid #fff;
+    // display: none;
+    // 	&:hover {
+    // 		display: block;
+    // 	}
+}
+// .resume {
+// 	display: block;
+// 		&:hover {
+//     		display: block;
+//     	}
+// }
+.main-infos {
+	text-align: right;
+     h1 {
+      font-family:  "freightsans_regular", sans-serif;
+	  font-weight: 300;
+	  font-size: 40px;
+	  color: #6b6b6b;
+	  margin: 0;
+     }
+     span {
+     	font-family:  "freightsans_regular", sans-serif;
+		font-weight: 300;
+		font-size: 15px;
+		color: #6b6b6b;
+		padding-right: 20px;
+     }
+    } 
+     ul, li, p {
+     	text-align: justify;
+     	margin-left: 20px;
+     	font-family: "freightsans_regular", sans-serif;
+		font-weight: 200;
+		font-size: 17px;
+	    color: #6b6b6b;
+	    letter-spacing: 1px;
+	    padding: 10px 10px 5px 0;
+     }
+     h3 {
+     	margin-left: 20px;
+     	padding-top: 20px;
+     	font-family: "freightsans_regular", sans-serif;
+     	letter-spacing: 2px;
+     }
+.donwload {
+		text-align: center;
+		font-family: "freightsans_regular", sans-serif;
+		font-weight: 600;
+		font-size: 20px;
+		text-transform: uppercase;
+	    letter-spacing: 2px;
+	    	a {
+	    		 color: #6b6b6b;
+	    		 text-decoration: none;
+	    		 	&:hover {
+	    		 		color: #9c0000;
+	    		 	}
+	    	}
+}	
 
 .contact-content {
 	width: 100%;
 	height: 500px;
+	border-width: 1px solid 
 }
 	.contact-content-1 {
 		display: inline-block;
@@ -396,11 +463,9 @@ body {
 		}
 		@include  breakpoint(xsmall) {
 			width: 90%;
-			// text-align: center;
 		}
 		@include  breakpoint(small) {
 			width: 90%;
-			// text-align: center;
 		}
 	}
 	.content-1 {
@@ -411,9 +476,9 @@ body {
 		display: inline-block;
 		width: 48%;
 		height: 500px;
-		form {
-			margin-top: 100px;
-		}
+			form {
+				margin-top: 100px;
+			}
 		textarea {
 			font-family: "freightsans_regular", sans-serif;
 			font-weight: 300;
@@ -446,6 +511,7 @@ body {
 			color: #fff;
 		}
 	}
+
 .main-footer {
 	width: 100%;
 	height: 80px;
@@ -510,7 +576,6 @@ body {
 				opacity: .5;
 			}
 }
-
 
 
 
