@@ -23,8 +23,4 @@ $(document).on('ready', function() {
 	$('.main-logo').on('mouseleave', function() {
 		$('.logo-text').fadeOut();
 	});
-	//appliying on hover to the page-resume
-	// $('#main-resume').on('click', function() {
-	// 	$('.js-resume').slideToggle();
-	// });
 });//end doc .ready
