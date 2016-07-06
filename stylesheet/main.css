@@ -368,132 +368,135 @@ h3 {
     text-decoration: none; }
     .donwload a:hover {
       color: #9c0000; }
-  .donwload .contact-content {
-    width: 100%;
-    height: 500px;
-    border-width: 1px solid; }
-  .donwload .contact-content-1 {
-    display: inline-block;
-    vertical-align: top;
-    width: 48%;
-    height: 500px; }
-    .donwload .contact-content-1 span {
-      font-family: "freightsans_regular", sans-serif;
-      font-weight: 300;
-      font-size: 20px;
-      color: #6b6b6b;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      text-align: left;
-      margin: 0 auto; }
-    .donwload .contact-content-1 h1 {
-      font-family: "freightsans_regular", sans-serif;
-      font-size: 60px;
-      font-weight: 300;
-      color: #6b6b6b;
-      text-align: left;
-      margin: 0 auto; }
-    .donwload .contact-content-1 p {
-      font-family: "freightsans_regular", sans-serif;
-      font-weight: 300;
-      color: #6b6b6b;
-      letter-spacing: 3px;
-      text-align: left; }
-    @media all and (min-width: 350px) and (max-width: 480px) {
-      .donwload .contact-content-1 {
-        width: 90%; } }
-    @media all and (min-width: 480px) and (max-width: 700px) {
-      .donwload .contact-content-1 {
-        width: 90%; } }
-  .donwload .content-1 {
-    margin-top: 100px;
-    margin-left: 40px; }
-  .donwload .contact-content-2 {
-    display: inline-block;
-    width: 48%;
-    height: 500px; }
-    .donwload .contact-content-2 form {
-      margin-top: 100px; }
-    .donwload .contact-content-2 textarea {
-      font-family: "freightsans_regular", sans-serif;
-      font-weight: 300;
-      color: #6b6b6b;
-      text-transform: uppercase;
-      letter-spacing: 3px; }
-  .donwload .contact-content-input {
-    width: 72%;
-    margin-bottom: 20px;
+
+.contact-content {
+  width: 100%; }
+
+.contact-content-1 {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  width: 48%;
+  height: 500px; }
+  .contact-content-1 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0 auto; }
+  .contact-content-1 h1 {
+    font-family: "freightsans_regular", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-align: left;
+    margin: 0 auto; }
+  .contact-content-1 p {
     font-family: "freightsans_regular", sans-serif;
     font-weight: 300;
     color: #6b6b6b;
-    letter-spacing: 3px; }
-  .donwload .contact-content-submit {
-    width: 27%;
-    margin-top: 20px;
+    letter-spacing: 3px;
+    text-align: left; }
+
+.contact-content-2 {
+  display: inline-block;
+  float: left;
+  width: 48%;
+  height: 500px;
+  vertical-align: top; }
+  .contact-content-2 form {
+    margin-top: 100px; }
+  .contact-content-2 textarea {
     font-family: "freightsans_regular", sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     color: #6b6b6b;
-    border: 1px solid #9c0000;
     text-transform: uppercase;
+    letter-spacing: 3px; }
+
+.contact-content-input {
+  width: 72%;
+  margin-bottom: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 300;
+  color: #6b6b6b;
+  letter-spacing: 3px; }
+
+.contact-content-submit {
+  width: 27%;
+  margin-top: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 600;
+  color: #6b6b6b;
+  border: 1px solid #9c0000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 10px 0 5px 0; }
+  .contact-content-submit:hover {
+    background-color: #9c0000;
+    color: #fff; }
+
+.main-footer {
+  width: 100%;
+  height: 80px;
+  background-color: #474747;
+  margin-top: 500px; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .main-footer {
+      width: 90%;
+      position: relative;
+      top: 390px; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .main-footer {
+      position: relative;
+      top: 390px;
+      width: 90%; } }
+
+.main-footer-span-1 {
+  display: inline-block;
+  width: 60%;
+  margin-top: 30px;
+  vertical-align: top; }
+  .main-footer-span-1 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 700;
+    color: #6b6b6b;
     letter-spacing: 5px;
-    padding: 10px 0 5px 0; }
-    .donwload .contact-content-submit:hover {
-      background-color: #9c0000;
-      color: #fff; }
-  .donwload .main-footer {
-    width: 100%;
-    height: 80px;
-    background-color: #474747; }
+    margin-left: 30px; }
+
+.main-footer-span-2 {
+  display: inline-block;
+  margin-bottom: 10px; }
+  .main-footer-span-2 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 700;
+    color: #6b6b6b;
+    letter-spacing: 5px; }
     @media all and (min-width: 350px) and (max-width: 480px) {
-      .donwload .main-footer {
-        width: 90%;
-        position: relative;
-        top: 390px; } }
-    @media all and (min-width: 480px) and (max-width: 700px) {
-      .donwload .main-footer {
-        position: relative;
-        top: 390px;
-        width: 90%; } }
-  .donwload .main-footer-span-1 {
-    display: inline-block;
-    width: 60%;
-    margin-top: 30px;
-    vertical-align: top; }
-    .donwload .main-footer-span-1 span {
-      font-family: "freightsans_regular", sans-serif;
-      font-weight: 700;
-      color: #6b6b6b;
-      letter-spacing: 5px;
-      margin-left: 30px; }
-  .donwload .main-footer-span-2 {
-    display: inline-block;
-    margin-bottom: 10px; }
-    .donwload .main-footer-span-2 span {
-      font-family: "freightsans_regular", sans-serif;
-      font-weight: 700;
-      color: #6b6b6b;
-      letter-spacing: 5px; }
-      @media all and (min-width: 350px) and (max-width: 480px) {
-        .donwload .main-footer-span-2 span {
-          display: none; } }
-      @media all and (min-width: 480px) and (max-width: 700px) {
-        .donwload .main-footer-span-2 span {
-          display: none; } }
-  .donwload .main-footer-icons {
-    display: inline-block;
-    margin-top: 20px; }
-  .donwload .footer-icons {
-    width: 15px;
-    height: 15px;
-    padding-left: 10px;
-    margin-top: 10px; }
-    @media all and (min-width: 350px) and (max-width: 480px) {
-      .donwload .footer-icons {
+      .main-footer-span-2 span {
         display: none; } }
     @media all and (min-width: 480px) and (max-width: 700px) {
-      .donwload .footer-icons {
+      .main-footer-span-2 span {
         display: none; } }
-    .donwload .footer-icons:hover {
-      opacity: .5; }
+
+.main-footer-icons {
+  display: inline-block;
+  margin-top: 20px; }
+
+.footer-icons {
+  width: 15px;
+  height: 15px;
+  padding-left: 10px;
+  margin-top: 10px; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .footer-icons {
+      display: none; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .footer-icons {
+      display: none; } }
+  .footer-icons:hover {
+    opacity: .5; }
 
 /*# sourceMappingURL=main.css.map */
