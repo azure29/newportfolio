@@ -8,16 +8,18 @@ body {
   height: 80px;
   top: 0;
   position: fixed;
-  background-color: #faf8f8;
-  display: block; }
+  background-color: #9c0000;
+  display: block;
+  z-index: 2; }
 
 .nav-ham {
   color: #000;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   padding: 0;
   margin: 0 auto;
   margin-right: 15px;
+  margin-top: 15px;
   float: right; }
 
 .nav-main {
@@ -49,7 +51,7 @@ body {
     text-decoration: none;
     padding: 20px;
     font-family: "freightsans_regular",sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #6b6b6b;
     text-transform: uppercase;
     letter-spacing: 3px; }
@@ -85,6 +87,8 @@ body {
   letter-spacing: 4px;
   color: #6b6b6b;
   text-transform: uppercase; }
+  .logo-text:hover {
+    color: #9c0000; }
   @media all and (min-width: 350px) and (max-width: 480px) {
     .logo-text {
       font-size: .1em;
@@ -226,42 +230,6 @@ body {
   .sample-content-right .sample.sample-6:hover {
     background-image: url(../images/charity.jpg);
     background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-7:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-8:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-9:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-10:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-11:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-12:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-13:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-14:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-15:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-16:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-17:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
-  .sample-content-right .sample.sample-18:hover {
-    background-image: url(../images/TRIANGLES.jpg);
-    background-repeat: no-repeat; }
 
 .smoke-1 {
   background-image: url(../images/Smoke3.jpg); }
@@ -281,100 +249,13 @@ body {
 .smoke-6 {
   background-image: url(../images/Smoke7.jpg); }
 
-.smoke-7 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-8 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-9 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-10 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-11 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-12 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-13 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-14 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-15 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-16 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-17 {
-  background-image: url(../images/smoke-9.jpg); }
-
-.smoke-18 {
-  background-image: url(../images/smoke-9.jpg); }
-
-#page-resume {
-  width: 100%;
-  max-width: 43.75em;
-  margin: 0 auto;
-  padding: 2.0em;
-  margin-top: 1.5em;
-  border: 5px solid #fff; }
-
-.main-infos {
-  text-align: right; }
-  .main-infos h1 {
-    font-family: "freightsans_regular", sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    color: #6b6b6b;
-    margin: 0; }
-  .main-infos span {
-    font-family: "freightsans_regular", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: #6b6b6b;
-    padding-right: 20px; }
-
-ul, li, p {
-  text-align: justify;
-  margin-left: 20px;
-  font-family: "freightsans_regular", sans-serif;
-  font-weight: 200;
-  font-size: 17px;
-  color: #6b6b6b;
-  letter-spacing: 1px;
-  padding: 10px 10px 5px 0; }
-
-h3 {
-  margin-left: 20px;
-  padding-top: 20px;
-  font-family: "freightsans_regular", sans-serif;
-  letter-spacing: 2px; }
-
-.donwload {
-  text-align: center;
-  font-family: "freightsans_regular", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
-  .donwload a {
-    color: #6b6b6b;
-    text-decoration: none; }
-    .donwload a:hover {
-      color: #9c0000; }
-
 .contact-content {
   width: 100%; }
 
 .contact-content-1 {
   display: inline-block;
   float: left;
+  margin-left: 20px;
   vertical-align: top;
   width: 48%;
   height: 500px; }
@@ -386,14 +267,16 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: left;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-left: 22px; }
   .contact-content-1 h1 {
     font-family: "freightsans_regular", sans-serif;
     font-size: 60px;
     font-weight: 300;
     color: #6b6b6b;
     text-align: left;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-left: 20px; }
   .contact-content-1 p {
     font-family: "freightsans_regular", sans-serif;
     font-weight: 300;
@@ -402,6 +285,7 @@ h3 {
     text-align: left; }
 
 .contact-content-2 {
+  margin-left: 30px;
   display: inline-block;
   float: left;
   width: 48%;
@@ -417,7 +301,7 @@ h3 {
     letter-spacing: 3px; }
 
 .contact-content-input {
-  width: 72%;
+  width: 71%;
   margin-bottom: 20px;
   font-family: "freightsans_regular", sans-serif;
   font-weight: 300;
@@ -425,7 +309,7 @@ h3 {
   letter-spacing: 3px; }
 
 .contact-content-submit {
-  width: 27%;
+  width: 72%;
   margin-top: 20px;
   font-family: "freightsans_regular", sans-serif;
   font-weight: 600;
@@ -498,5 +382,71 @@ h3 {
       display: none; } }
   .footer-icons:hover {
     opacity: .5; }
+
+/*--resume--*/
+#page-resume {
+  width: 100%;
+  max-width: 43.75em;
+  margin: 0 auto;
+  padding: 2.0em;
+  margin-top: 1.5em;
+  border: 5px solid #fff; }
+
+.main-infos {
+  text-align: right; }
+  .main-infos h1 {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #6b6b6b;
+    margin: 0; }
+  .main-infos span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #6b6b6b;
+    padding-right: 20px; }
+
+ul, li, p {
+  text-align: justify;
+  margin-left: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+  color: #6b6b6b;
+  letter-spacing: 1px;
+  padding: 10px 10px 5px 0; }
+
+h3 {
+  margin-left: 20px;
+  padding-top: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  letter-spacing: 2px; }
+
+.donwload {
+  text-align: center;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .donwload a {
+    color: #6b6b6b;
+    text-decoration: none; }
+    .donwload a:hover {
+      color: #9c0000; }
+
+.main-footer-resume {
+  display: inline-block; }
+  .main-footer-resume li, .main-footer-resume a {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 5px; }
+    .main-footer-resume li:hover, .main-footer-resume a:hover {
+      opacity: .5; }
 
 /*# sourceMappingURL=main.css.map */

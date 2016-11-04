@@ -9,16 +9,18 @@ body {
 	height: 80px;
 	top: 0;
 	position: fixed;
-	background-color: #faf8f8;
+	background-color: #9c0000;
 	display: block;
+	z-index: 2;
 }
 .nav-ham {
 	color: #000;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 35px;
 	padding: 0;
 	margin: 0 auto;
 	margin-right: 15px;
+	margin-top: 15px;
 	float: right;	
 }
 .nav-main {
@@ -52,7 +54,7 @@ body {
 		text-decoration: none;	
 		padding: 20px;
 	    font-family: "freightsans_regular",sans-serif;
-	    font-weight: 300;
+	    font-weight: 400;
 	    color: #6b6b6b;
 	    text-transform: uppercase;
 	    letter-spacing: 3px;
@@ -91,8 +93,12 @@ body {
 	    font-weight: 900;
 	    letter-spacing: 4px;
 	    color: #6b6b6b;
+	    // color: #9c0000;
 	    text-transform: uppercase;
 		// display: none;
+			&:hover {
+				color: #9c0000;
+			}
 	  
 		@include  breakpoint(xsmall) {
 			font-size: .1em;
@@ -252,55 +258,7 @@ body {
 				background-image: url(../images/charity.jpg);
 				background-repeat: no-repeat;
 			}
-			.sample.sample-7:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-8:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-9:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-10:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-11:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-12:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-13:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-14:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-15:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-16:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-17:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-			.sample.sample-18:hover {
-				background-image: url(../images/TRIANGLES.jpg);
-				background-repeat: no-repeat;
-			}
-	}
+		}
 			.smoke {
 				
 			}	
@@ -322,107 +280,13 @@ body {
 			.smoke-6 {
 				background-image: url(../images/Smoke7.jpg);
 			}
-			.smoke-7 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-8 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-9 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-10 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-11 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-12 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-13 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-14 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-15 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-16 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-17 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-			.smoke-18 {
-				background-image: url(../images/smoke-9.jpg);
-			}
-#page-resume {
-	width: 100%;
-	max-width: 43.75em;
-    margin: 0 auto;
-    padding: 2.0em;
-    margin-top: 1.5em;
-    border: 5px solid #fff;
-}
-.main-infos {
-	text-align: right;
-     h1 {
-      font-family:  "freightsans_regular", sans-serif;
-	  font-weight: 300;
-	  font-size: 40px;
-	  color: #6b6b6b;
-	  margin: 0;
-     }
-     span {
-     	font-family:  "freightsans_regular", sans-serif;
-		font-weight: 300;
-		font-size: 15px;
-		color: #6b6b6b;
-		padding-right: 20px;
-     }
- } 
-     ul, li, p {
-     	text-align: justify;
-     	margin-left: 20px;
-     	font-family: "freightsans_regular", sans-serif;
-		font-weight: 200;
-		font-size: 17px;
-	    color: #6b6b6b;
-	    letter-spacing: 1px;
-	    padding: 10px 10px 5px 0;
-     }
-     h3 {
-     	margin-left: 20px;
-     	padding-top: 20px;
-     	font-family: "freightsans_regular", sans-serif;
-     	letter-spacing: 2px;
-     }
-.donwload {
-		text-align: center;
-		font-family: "freightsans_regular", sans-serif;
-		font-weight: 600;
-		font-size: 20px;
-		text-transform: uppercase;
-	    letter-spacing: 2px;
-	    	a {
-	    		 color: #6b6b6b;
-	    		 text-decoration: none;
-	    		 	&:hover {
-	    		 		color: #9c0000;
-	    		 	}
-	    	}
-}
 .contact-content {
 	width: 100%;
-	// max-height: 500px;
-	// height: 800px;
 }
 .contact-content-1 {
 		display: inline-block;
 		float: left;
-		// border: 1px solid green;
+		margin-left: 20px;
 		vertical-align: top;
 		width: 48%;
 		height: 500px;
@@ -435,6 +299,7 @@ body {
 		    letter-spacing: 3px;
 		    text-align: left;
 			margin: 0 auto;
+			margin-left: 22px;
 		}
 		h1 {
 			font-family: "freightsans_regular", sans-serif;
@@ -443,6 +308,7 @@ body {
 		    color: #6b6b6b;
 		    text-align: left;
 		    margin: 0 auto;
+		    margin-left: 20px;
 		}
 		p {
 			font-family: "freightsans_regular", sans-serif;
@@ -453,9 +319,9 @@ body {
 	}
 }
 	.contact-content-2 {
+		margin-left: 30px;
 		display: inline-block;
 		float: left;
-		// border: 1px solid blue;
 		width: 48%;
 		height: 500px;
 		vertical-align: top;
@@ -472,7 +338,7 @@ body {
 	}
 
 	.contact-content-input {
-		width: 72%;
+		width: 71%;
 		margin-bottom: 20px;
 		font-family: "freightsans_regular", sans-serif;
 		font-weight: 300;
@@ -480,7 +346,7 @@ body {
 	    letter-spacing: 3px;
 	}
 	.contact-content-submit {
-		width: 27%;
+		width: 72%;
 		margin-top: 20px;
 		font-family: "freightsans_regular", sans-serif;
 		font-weight: 600;
@@ -560,67 +426,76 @@ body {
 			}
 }
 
-	// }
-// 	background-color: #474747;
-// 	// position: relative;
-// 	// top: 50px;
-// 		// @include  breakpoint(xsmall) {
-// 		// 	width: 90%;
-// 		// 	position: relative;
-// 		// 	top: 390px;
-// 		// }
-// 		// @include  breakpoint(small) {
-// 		// 	position: relative;
-// 		// 	top: 390px;
-// 		// 	width: 90%;
-// 		// }
-// }
-// 	.main-footer-span-1 {
-// 		display: inline-block;
-// 		width: 60%;
-// 		margin-top: 30px;
-// 		vertical-align: top;
+/*--resume--*/
+#page-resume {
+	width: 100%;
+	max-width: 43.75em;
+    margin: 0 auto;
+    padding: 2.0em;
+    margin-top: 1.5em;
+    border: 5px solid #fff;
+}
+.main-infos {
+	text-align: right;
+     h1 {
+      font-family:  "freightsans_regular", sans-serif;
+	  font-weight: 300;
+	  font-size: 40px;
+	  color: #6b6b6b;
+	  margin: 0;
+     }
+     span {
+     	font-family:  "freightsans_regular", sans-serif;
+		font-weight: 300;
+		font-size: 15px;
+		color: #6b6b6b;
+		padding-right: 20px;
+     }
+ } 
+     ul, li, p {
+     	text-align: justify;
+     	margin-left: 20px;
+     	font-family: "freightsans_regular", sans-serif;
+		font-weight: 200;
+		font-size: 17px;
+	    color: #6b6b6b;
+	    letter-spacing: 1px;
+	    padding: 10px 10px 5px 0;
+     }
+     h3 {
+     	margin-left: 20px;
+     	padding-top: 20px;
+     	font-family: "freightsans_regular", sans-serif;
+     	letter-spacing: 2px;
+     }
+.donwload {
+		text-align: center;
+		font-family: "freightsans_regular", sans-serif;
+		font-weight: 600;
+		font-size: 20px;
+		text-transform: uppercase;
+	    letter-spacing: 2px;
+	    	a {
+	    		 color: #6b6b6b;
+	    		 text-decoration: none;
+	    		 	&:hover {
+	    		 		color: #9c0000;
+	    		 	}
+	    	}
+}
+.main-footer-resume {
+	display: inline-block;
+		li,a {
+			margin-left: 10px;
+			text-decoration: none;
+			list-style: none;
+			font-family: "freightsans_regular", sans-serif;
+			font-weight: 400;
+			color: #fff;
+			letter-spacing: 5px;
+				&:hover {
+					opacity: .5;
+				}
+		}
+}
 
-// 		span {
-// 			font-family: "freightsans_regular", sans-serif;
-// 			font-weight: 700;
-// 			color: #6b6b6b;
-// 			letter-spacing: 5px;
-// 			margin-left: 30px;
-// 		}
-// 	}
-// 	.main-footer-span-2 {
-// 		display: inline-block;
-// 		margin-bottom: 10px;
-// 		span { 
-// 			font-family: "freightsans_regular", sans-serif;
-// 			font-weight: 700;
-// 			color: #6b6b6b;
-// 			letter-spacing: 5px;
-// 			// 	@include  breakpoint(xsmall) {
-// 			// display: none;
-// 			// }
-// 			// @include  breakpoint(small) {
-// 			// 	display: none;
-// 			// }
-// 		}
-// 	}
-// 	.main-footer-icons {
-// 		display: inline-block;
-// 		margin-top: 20px;
-// 	}
-// 	.footer-icons {
-// 		width: 15px;
-// 		height: 15px;
-// 		padding-left: 10px;
-// 		margin-top: 10px;
-// 		// 	@include  breakpoint(xsmall) {
-// 		// 	display: none;
-// 		// }
-// 		// @include  breakpoint(small) {
-// 		// 	display: none;
-// 		// }
-// 			&:hover {
-// 				opacity: .5;
-// 			}
-// }
