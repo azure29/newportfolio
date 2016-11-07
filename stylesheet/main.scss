@@ -93,7 +93,6 @@ body {
 	    font-weight: 900;
 	    letter-spacing: 4px;
 	    color: #6b6b6b;
-	    // color: #9c0000;
 	    text-transform: uppercase;
 		// display: none;
 			&:hover {
@@ -382,41 +381,29 @@ body {
 		margin-top: 30px;
 		vertical-align: top;
 
-		span {
-			font-family: "freightsans_regular", sans-serif;
-			font-weight: 700;
-			color: #6b6b6b;
-			letter-spacing: 5px;
-			margin-left: 30px;
+			span {
+				font-family: "freightsans_regular", sans-serif;
+				font-weight: 700;
+				color: #6b6b6b;
+				letter-spacing: 5px;
+				margin-left: 30px;
 		}
 	}
 	.main-footer-span-2 {
 		display: inline-block;
 		margin-bottom: 10px;
-		span { 
-			font-family: "freightsans_regular", sans-serif;
-			font-weight: 700;
-			color: #6b6b6b;
-			letter-spacing: 5px;
-				@include  breakpoint(xsmall) {
-					display: none;
+			span { 
+				font-family: "freightsans_regular", sans-serif;
+				font-weight: 700;
+				color: #6b6b6b;
+				letter-spacing: 5px;
+					@include  breakpoint(xsmall) {
+						display: none;
+				}
+					@include  breakpoint(small) {
+						display: none;
+				}
 			}
-				@include  breakpoint(small) {
-					display: none;
-			}
-		}
-	}
-	.main-footer-icons {
-		display: inline-block;
-		margin-top: 20px;
-	}
-	a {
-		text-decoration: none;
-		// list-style: none;
-		font-family: "freightsans_regular", sans-serif;
-		font-weight: 400;
-		color: #fff;
-		letter-spacing: 5px;
 	}
 	.footer-icons {
 		width: 15px;

@@ -1,0 +1,448 @@
+body {
+  background-color: #faf8f8;
+  margin: 0;
+  margin-top: 60px; }
+
+.nav-wrapper {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  background-color: #9c0000;
+  display: block;
+  z-index: 2; }
+
+.nav-ham {
+  color: #000;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 0;
+  margin: 0 auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  float: right; }
+
+.nav-main {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: auto; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .nav-main {
+      display: none; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .nav-main {
+      display: none; } }
+  @media all and (min-width: 700px) and (max-width: 859px) {
+    .nav-main {
+      display: none; } }
+  @media all and (min-width: 860px) and (max-width: 960px) {
+    .nav-main {
+      display: none; } }
+  @media all and (min-width: 960px) and (max-width: 1220px) {
+    .nav-main {
+      display: none; } }
+
+.nav-main li {
+  display: inline-block; }
+  .nav-main li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "freightsans_regular",sans-serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+#page-home {
+  width: 100%;
+  height: 100%;
+  background-color: #faf8f8; }
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  background-color: #faf8f8; }
+
+.main-logo {
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff; }
+  .main-logo .logo-image {
+    display: table-row;
+    width: 100%; }
+
+.logo-text {
+  color: #4c4c4c;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  font-family: "freightsans_regular",sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  text-transform: uppercase; }
+  .logo-text:hover {
+    color: #9c0000; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .logo-text {
+      font-size: .1em;
+      width: 90%;
+      text-align: center; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .logo-text {
+      width: 90%;
+      text-align: center;
+      font-size: 0.6em; } }
+  @media all and (min-width: 700px) and (max-width: 859px) {
+    .logo-text {
+      width: 90%;
+      text-align: center;
+      font-size: 1em; } }
+  @media all and (min-width: 860px) and (max-width: 960px) {
+    .logo-text {
+      width: 90%;
+      text-align: center;
+      font-size: 1em; } }
+
+.about-content {
+  width: 100%; }
+
+.about-content-left {
+  width: 45%;
+  height: 500px;
+  background-color: #faf8f8;
+  display: inline-block;
+  vertical-align: top; }
+  .about-content-left h2 {
+    font-family: "freightsans_regular",sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 30px; }
+
+.about-content-logo {
+  display: inline-block;
+  width: 80%; }
+
+.about-content-right {
+  width: 54%;
+  height: 500px;
+  display: inline-block;
+  border-left: 1px solid #f2f2f2; }
+  .about-content-right h2 {
+    font-family: "freightsans_regular",sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 30px; }
+  .about-content-right p {
+    font-family: "freightsans_regular",sans-serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-left: 30px; }
+
+.about-skillset h3 {
+  font-family: "freightsans_regular",sans-serif;
+  font-weight: 300;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-left: 30px; }
+.about-skillset span, .about-skillset p {
+  font-family: "freightsans_regular",sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-left: 30px; }
+
+.about-content-skills {
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 10px; }
+
+.about-content-skills-add {
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 10px; }
+
+.sample-content {
+  width: 100%;
+  margin-left: 20px; }
+
+.sample-content-left {
+  display: inline-block;
+  width: 23%;
+  height: 500px;
+  vertical-align: top; }
+  .sample-content-left h2 {
+    font-family: "freightsans_regular",sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 250px;
+    border-bottom: 3px solid #f2f2f2; }
+
+.sample-content-right {
+  display: inline-block;
+  width: 70%;
+  height: 500px;
+  margin-left: 70px;
+  border-left: 1px solid #f2f2f2;
+  overflow: scroll; }
+  .sample-content-right .sample {
+    width: 290px;
+    height: 290px;
+    display: inline-block; }
+  .sample-content-right .sample.sample-1:hover {
+    background-image: url(../images/art-gallery.jpg);
+    background-repeat: no-repeat; }
+  .sample-content-right .sample.sample-2:hover {
+    background-image: url(../images/newborn.jpg);
+    background-repeat: no-repeat; }
+  .sample-content-right .sample.sample-3:hover {
+    background-image: url(../images/massage.jpg);
+    background-repeat: no-repeat; }
+  .sample-content-right .sample.sample-4:hover {
+    background-image: url(../images/travel.jpg);
+    background-repeat: no-repeat; }
+  .sample-content-right .sample.sample-5:hover {
+    background-image: url(../images/Restaurant.jpg);
+    background-repeat: no-repeat; }
+  .sample-content-right .sample.sample-6:hover {
+    background-image: url(../images/charity.jpg);
+    background-repeat: no-repeat; }
+
+.smoke-1 {
+  background-image: url(../images/Smoke3.jpg); }
+
+.smoke-2 {
+  background-image: url(../images/Smoke4.jpg); }
+
+.smoke-3 {
+  background-image: url(../images/smoke-1.jpg); }
+
+.smoke-4 {
+  background-image: url(../images/smoke-10.jpg); }
+
+.smoke-5 {
+  background-image: url(../images/Smoke5.jpg); }
+
+.smoke-6 {
+  background-image: url(../images/Smoke6.jpg); }
+
+.contact-content {
+  width: 100%; }
+
+.contact-content-1 {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  vertical-align: top;
+  width: 48%;
+  height: 500px; }
+  .contact-content-1 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 22px; }
+  .contact-content-1 h1 {
+    font-family: "freightsans_regular", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 20px; }
+  .contact-content-1 p {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    letter-spacing: 3px;
+    text-align: left; }
+
+.contact-content-2 {
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+  width: 48%;
+  height: 500px;
+  vertical-align: top; }
+  .contact-content-2 form {
+    margin-top: 100px; }
+  .contact-content-2 textarea {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+
+.contact-content-input {
+  width: 71%;
+  margin-bottom: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 300;
+  color: #6b6b6b;
+  letter-spacing: 3px; }
+
+.contact-content-submit {
+  width: 72%;
+  margin-top: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 600;
+  color: #6b6b6b;
+  border: 1px solid #9c0000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 10px 0 5px 0; }
+  .contact-content-submit:hover {
+    background-color: #9c0000;
+    color: #fff; }
+
+.main-footer {
+  width: 100%;
+  height: 80px;
+  background-color: #474747;
+  margin-top: 500px; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .main-footer {
+      width: 90%;
+      position: relative;
+      top: 390px; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .main-footer {
+      position: relative;
+      top: 390px;
+      width: 90%; } }
+
+.main-footer-span-1 {
+  display: inline-block;
+  width: 60%;
+  margin-top: 30px;
+  vertical-align: top; }
+  .main-footer-span-1 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 700;
+    color: #6b6b6b;
+    letter-spacing: 5px;
+    margin-left: 30px; }
+
+.main-footer-span-2 {
+  display: inline-block;
+  margin-bottom: 10px; }
+  .main-footer-span-2 span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 700;
+    color: #6b6b6b;
+    letter-spacing: 5px; }
+    @media all and (min-width: 350px) and (max-width: 480px) {
+      .main-footer-span-2 span {
+        display: none; } }
+    @media all and (min-width: 480px) and (max-width: 700px) {
+      .main-footer-span-2 span {
+        display: none; } }
+
+.footer-icons {
+  width: 15px;
+  height: 15px;
+  padding-left: 10px;
+  margin-top: 10px; }
+  @media all and (min-width: 350px) and (max-width: 480px) {
+    .footer-icons {
+      display: none; } }
+  @media all and (min-width: 480px) and (max-width: 700px) {
+    .footer-icons {
+      display: none; } }
+  .footer-icons:hover {
+    opacity: .5; }
+
+/*--resume--*/
+#page-resume {
+  width: 100%;
+  max-width: 43.75em;
+  margin: 0 auto;
+  padding: 2.0em;
+  margin-top: 1.5em;
+  border: 5px solid #fff; }
+
+.main-infos {
+  text-align: right; }
+  .main-infos h1 {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #6b6b6b;
+    margin: 0; }
+  .main-infos span {
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #6b6b6b;
+    padding-right: 20px; }
+
+ul, li, p {
+  text-align: justify;
+  margin-left: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
+  color: #6b6b6b;
+  letter-spacing: 1px;
+  padding: 10px 10px 5px 0; }
+
+h3 {
+  margin-left: 20px;
+  padding-top: 20px;
+  font-family: "freightsans_regular", sans-serif;
+  letter-spacing: 2px; }
+
+.donwload {
+  text-align: center;
+  font-family: "freightsans_regular", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .donwload a {
+    color: #6b6b6b;
+    text-decoration: none; }
+    .donwload a:hover {
+      color: #9c0000; }
+
+.main-footer-resume {
+  display: inline-block; }
+  .main-footer-resume li, .main-footer-resume a {
+    margin-left: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "freightsans_regular", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 5px; }
+    .main-footer-resume li:hover, .main-footer-resume a:hover {
+      opacity: .5; }
+
+/*# sourceMappingURL=maincss.map */
